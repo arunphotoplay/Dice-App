@@ -61,3 +61,24 @@ p {
   position: relative;
   top: 70px;
 }
+
+/* animation */
+
+.shake {
+  animation: shake 0.5s ;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(8deg);
+  }
+ 
+  50% {
+    transform: rotate(-8deg);
+  }
+
+  100% {
+    transform: rotate(8deg);
+  }
+
+}

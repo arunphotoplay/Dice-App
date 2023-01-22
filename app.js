@@ -5,6 +5,8 @@ const button = document.getElementById('rollButton')
 
 const diceImages = ["images/Vector.png" , "images/Vector-1.png", "images/Vector-2.png" , "images/Vector-3.png", "images/Vector-3.png" , "images/Vector-4.png" , "images/Vector-5.png"]
 
+const dice = document.querySelectorAll("img");
+
 
 // add  a click event to the button
 
