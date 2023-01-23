@@ -30,10 +30,18 @@ function rollDice() {
     dice.forEach(function (die) {
       die.classList.remove("shake");
     });
-    
   });
 
   const roll = Math.floor(Math.random() * diceImages.length);
 
   document.getElementById("decimates").src = diceImages[roll];
 }
+
+let image = "images/Vector.png";
+
+function refresh() {
+  let img = document.getElementById("decimates");
+  img.src = image;
+}
+
+document.getElementById("reloadButton").addEventListener("click", refresh);
