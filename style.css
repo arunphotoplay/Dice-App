@@ -65,20 +65,22 @@ p {
 /* animation */
 
 .shake {
-  animation: shake 0.5s ;
+  animation: shake 10s infinite ;
+  
+  
 }
 
 @keyframes shake {
   0% {
-    transform: rotate(8deg);
+    transform: rotate(50deg);
   }
  
   50% {
-    transform: rotate(-8deg);
+    transform: rotate(-50deg);
   }
 
   100% {
-    transform: rotate(8deg);
+    transform: rotate(50deg);
   }
 
 }
