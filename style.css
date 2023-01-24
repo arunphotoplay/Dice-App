@@ -27,7 +27,6 @@ body {
   flex-direction: column;
 }
 
-
 .reload i {
   color: white;
   position: relative;
@@ -50,7 +49,7 @@ p {
 
 .button-container button i {
   font-size: 1.5em;
-  color: rgb(55, 70, 73) ;
+  color: rgb(55, 70, 73);
 }
 
 .button-container button {
@@ -62,27 +61,24 @@ p {
   border-radius: 10px;
   position: relative;
   top: 70px;
-  transition:0.3s ;
+  transition: 0.3s;
 }
 
 .button-container button:hover {
   background-color: #ffdc74;
-  
 }
 
 /* animation */
 
 .shake {
-  animation: shake 10s infinite ;
-  
-  
+  animation: shake 10s infinite;
 }
 
 @keyframes shake {
   0% {
     transform: rotate(50deg);
   }
- 
+
   50% {
     transform: rotate(-50deg);
   }
@@ -90,5 +86,4 @@ p {
   100% {
     transform: rotate(50deg);
   }
-
 }
